@@ -6,8 +6,8 @@ import { AppService } from './app.service';
 import { UsersModule } from './users/users.module';
 import { ProductsModule } from './products/products.module';
 
-const API_KEY = '12345600569';
-const API_KEY_PRD = '951235870';
+const API_KEY = 'DESA-12345600569';
+const API_KEY_PRD = 'PRD-951235870';
 @Module({
   imports: [HttpModule, UsersModule, ProductsModule],
   controllers: [AppController],
